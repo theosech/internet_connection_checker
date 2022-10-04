@@ -88,38 +88,32 @@ class InternetConnectionChecker {
     <AddressCheckOptions>[
       AddressCheckOptions(
         address: InternetAddressTest(
-          '1.1.1.1', // CloudFlare
-          type: InternetAddressType.IPv4,
+          '1.1.1.1' // CloudFlare
         ),
       ),
       AddressCheckOptions(
         address: InternetAddress(
-          '2606:4700:4700::1111', // CloudFlare
-          type: InternetAddressType.IPv6,
+          '2606:4700:4700::1111' // CloudFlare
         ),
       ),
       AddressCheckOptions(
         address: InternetAddress(
           '8.8.4.4', // Google
-          type: InternetAddressType.IPv4,
         ),
       ),
       AddressCheckOptions(
         address: InternetAddress(
-          '2001:4860:4860::8888', // Google
-          type: InternetAddressType.IPv6,
+          '2001:4860:4860::8888' // Google
         ),
       ),
       AddressCheckOptions(
         address: InternetAddress(
-          '208.67.222.222', // OpenDNS
-          type: InternetAddressType.IPv4,
+          '208.67.222.222' // OpenDNS
         ), // OpenDNS
       ),
       AddressCheckOptions(
         address: InternetAddress(
-          '2620:0:ccc::2', // OpenDNS
-          type: InternetAddressType.IPv6,
+          '2620:0:ccc::2' // OpenDNS
         ), // OpenDNS
       ),
     ],
