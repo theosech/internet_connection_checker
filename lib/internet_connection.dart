@@ -87,7 +87,7 @@ class InternetConnectionChecker {
       List<AddressCheckOptions>.unmodifiable(
     <AddressCheckOptions>[
       AddressCheckOptions(
-        address: InternetAddressTest(
+        address: InternetAddress(
           '1.1.1.1' // CloudFlare
         ),
       ),
